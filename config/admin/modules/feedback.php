@@ -12,9 +12,9 @@ return array(
 					'role' => 'base',
 					'resource' => 'feedback_controller',
 					'privilege' => 'access',
-					'assertion' => array('Acl_Assert_Module_Access', array(
-						'module' => 'feedback',
-					)),
+//					'assertion' => array('Acl_Assert_Module_Access', array(
+//						'module' => 'feedback',
+//					)),
 				),
 				'feedback_edit_1' => array(
 					'role' => 'base',
